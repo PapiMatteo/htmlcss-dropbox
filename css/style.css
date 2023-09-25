@@ -241,3 +241,12 @@ header {
 }
 
 /* Question Section */
+
+.question-cont {
+    width: 100%;
+    margin-top: 6rem;
+    /* Debug */
+    min-height: 550px;
+    border: 1px solid black;
+    background-color: gray;
+}
