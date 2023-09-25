@@ -21,6 +21,14 @@ body {
     margin: 0 auto;
 }
 
+.large-container {
+    width: 80%;
+    margin: 0 auto;
+    /* Debug */
+    border: 1px solid black;
+    min-height: 500px;
+}
+
 /* HEADER */
 header {
     width: 100%;
@@ -44,3 +52,33 @@ header {
     background-color: gray;
 }
 
+/* MAIN */
+
+/* Hero */
+.hero {
+    min-height: 700px;
+    background-color: #b4d0e7;
+}
+
+.hero-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    /* Debug */
+    min-height: 700px;
+}
+
+.h-col1 {
+    width: 30%;
+    /* Debug */
+    min-height: 350px;
+    background-color: red;
+}
+.h-col2 {
+    width: 60%;
+    /* Debug */
+    min-height: 350px;
+    background-color: red;
+}
+
+/* Business Plan Section */
