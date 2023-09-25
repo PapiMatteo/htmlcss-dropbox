@@ -203,3 +203,17 @@ header {
     margin-bottom: 50px;
 }
 
+/* Logo Banner Section */
+.logo-section {
+    margin-top: 80px;
+    /* Debug */
+    border: 1px solid black;
+    min-height: 400px;
+}
+
+.logo-col {
+    width: calc(100% / 3);
+    /* Debug */
+    border: 1px solid black;
+    background-color: purple;
+}
