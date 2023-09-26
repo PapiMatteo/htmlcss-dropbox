@@ -32,6 +32,7 @@ body {
 }
 
 h2{
+    margin-top: 3rem;
     text-align: center;
 }
 
@@ -39,13 +40,25 @@ ul {
     list-style-type: none;
 }
 
-li a {
+li a,p a {
     text-decoration: none;
     color: inherit;
 }
 
-.btn {
+p {
+    margin: 1.5rem 0;
+}
+
+i {
+    color: black;
+}
+
+.h-btn {
     padding: .5rem 2rem;
+}
+
+.main-btn {
+    padding: .5rem 1rem;
 }
 
 /* HEADER */
@@ -85,13 +98,18 @@ header {
 
 .blue-btn {
     display: inline-block;
-    background-color: blue;
+    background-color: #0061ff;
     color: white;
 }
 
 li:hover a {
     padding-bottom: 1.8rem;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid #0061ff;
+}
+
+.icons {
+    display: block;
+    padding-top: 3rem;
 }
 
 /* MAIN */
@@ -114,23 +132,21 @@ main{
 
 .hero-flex {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    /* Debug */
-    min-height: 250px;
+
 }
 
 .h-col1 {
     width: 30%;
-    /* Debug */
-    min-height: 350px;
-    background-color: red;
 }
 .h-col2 {
-    width: 60%;
-    /* Debug */
-    min-height: 350px;
-    background-color: red;
+    position: relative;
+    width: 70%;
+}
+
+.img-position {
+    position: absolute;
+    right: -40px;
+    bottom: -60px;
 }
 
 /* Card Section */
