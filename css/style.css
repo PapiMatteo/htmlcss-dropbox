@@ -318,7 +318,7 @@ main{
     margin-top: 20px;    
 }
 
-/* Only Text Section */
+/* Customer Data */
 
 .alone-title {
     text-align: left;
@@ -336,9 +336,20 @@ main{
 
 .logo-col {
     width: calc(100% / 3);
+    flex-wrap: wrap;
     /* Debug */
     border: 1px solid black;
     background-color: purple;
+}
+
+.square{
+    width: calc(100% / 2);
+    /* Debug */
+    border: 1px solid black;
+}
+
+.square img {
+    text-align: center;
 }
 
 /* Text and Button Section */
