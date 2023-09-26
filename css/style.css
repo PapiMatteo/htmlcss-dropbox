@@ -16,6 +16,8 @@ body {
 
 /* COMMON */
 
+
+/* Utility */
 .container {
     width: 60%;
     max-width: 1000px;
@@ -31,21 +33,34 @@ body {
     min-height: 500px;
 }
 
-h2{
+.h-btn {
+    padding: .5rem 2rem;
+}
+
+.main-btn {
+    padding: .5rem 1rem;
+}
+
+/* Layout */
+.head-title{
     margin-top: 3rem;
     text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
 }
 
 ul {
     list-style-type: none;
 }
 
-li a,p a {
+li a,.main-btn a {
     text-decoration: none;
     color: inherit;
 }
 
-p {
+.text {
     margin: 1.5rem 0;
 }
 
@@ -53,12 +68,22 @@ i {
     color: black;
 }
 
-.h-btn {
-    padding: .5rem 2rem;
+.renewal {
+    padding-bottom: 3rem;
+    font-weight: 200;
 }
 
-.main-btn {
-    padding: .5rem 1rem;
+.card-btn a {
+    text-decoration: none;
+}
+ 
+hr {
+    margin-top: 2rem;
+    max-width: 60px;
+}
+
+.blue-check {
+    color: blue;
 }
 
 /* HEADER */
@@ -177,9 +202,6 @@ main{
     margin-top: 2rem;
     flex-direction: column;
 
-    /* Debug */
-    min-height: 500px;
-    border: 1px solid black;
 }
 
 .flex {
@@ -188,19 +210,62 @@ main{
 
 .row {
     min-height: 200px;
-    background-color: yellow;
-    border: 1px solid black;
+    justify-content: space-between;
 }
 
 .large-row {
     margin-top: 30px;
+    border: 1px solid #e1dddd;
 }
 
-.card {
-    width: calc(100% / 3);
-    /* Debug */
-    min-height: 800px;
-    border: 1px solid black;
+.card-col {
+    border: 1px solid #e1dddd;
+}
+
+.card-col {
+    width: calc(90% / 3);
+}
+
+.card-title {
+    text-align: center;
+    border-bottom: 1px solid #e1dddd;
+}
+
+.card-content {
+    padding: 1.5rem 2rem;
+    /* margin-bottom: 3.5rem; */
+}
+
+.card-content p {
+    padding-top: 1rem;
+    
+}
+
+.card-btn {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.main-focus {
+    font-weight: 600;
+}
+
+
+.inner-col1 {
+    width: 75%;
+    padding: 1.5rem 1rem;
+}
+.inner-col2 {
+    width: 25%;
+}
+
+.row-info {
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+}
+
+.row-text {
+    font-weight: 200;
 }
 
 /* Image and text */
@@ -226,10 +291,7 @@ main{
 }
 
 .c2 {
-    width: 30%;
-    /* Debug */
-    border: 1px solid black;
-    background-color: blue;
+    width: 35%;
 }
 
 /* Grid Section */
