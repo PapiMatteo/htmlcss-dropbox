@@ -74,7 +74,7 @@ i {
     text-decoration: none;
 }
  
-hr {
+.card-hr {
     border: 1px solid #e1dddd;
     margin: 4rem 0;
     max-width: 60px;
@@ -443,11 +443,27 @@ main{
 
 .question-cont {
     width: 100%;
-    margin-top: 6rem;
-    /* Debug */
-    min-height: 550px;
-    border: 1px solid black;
-    background-color: gray;
+}
+
+.faq-hr{
+    margin: 3rem 0;
+}
+
+.faq-content i {
+    margin-left: 15rem;
+}
+
+.faq-content p{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    display: none;
+}
+
+.faq-content:hover i{
+    transform: rotate(180deg);
+}
+.faq-content:hover p{
+    display: block;
 }
 
 /* FOOTER */
