@@ -177,9 +177,12 @@ main{
     font-size: 1.2rem;
 }
 
-.choose {
-    display: inline-block;
-    padding-top: 4rem;
+.head-title {
+    margin-bottom: 3rem;
+}
+
+label {
+    margin-top: 4rem;
     margin-right: 3rem;
 }
 
